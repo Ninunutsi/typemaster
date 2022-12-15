@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vh 5.5vw;
+}
+
+.header button{
+    padding: 16px 26px;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 26px;
+    background: #E8EFF2;
+    border-radius: 8px;
+    border: none;
+    color: #162542;
+}
+
+.header button:hover{
+    background: #162542;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* main content */
+
+.typemaster{
+    padding: 5% 0 5% 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-text{
+    padding-bottom: 5vh;
+}
+
+.typemaster h1{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #162542;
+    padding-bottom: 2.5vh;
+}
+
+.typemaster p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    padding-bottom: 2.5vh;
+    padding-right: 2.5vw;
+}
+
+.pre-order{
+    background: #F16718;
+    border-radius: 8px;
+    padding: 11px 14px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.pre-order:hover{
+    background: #FF9B62;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-date span{
+    padding-left: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+.keyboard{
+    background-image: url('./imgs/mobile/image-keyboard.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 0 0 25px;
+    width: 100%;
+    height: 419px;
+}
+
+.square, .square1{
+    display: none;
+}
+
+/* section 2 */
+
+.pic2-text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics{
+    display: flex;
+    gap: 20px;
+}
+
+.red{
+    width: 40vw;
+    height: 226px;
+    margin-left: -8%;
+    border-radius: 25px;
+    overflow: hidden;
+    background-image: url(./imgs/mobile/image-phone-and-keyboard.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.red-cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+    opacity: 0.85;
+    background-color: #F16718;
+}
+
+.normal{
+    width: 60vw;
+    height: 226px;
+    background-image: url(./imgs/mobile/image-glass-and-keyboard.jpg);
+    border-radius: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text h1{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    padding: 6vh 60px 0 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+}
+
+.text p{
+    font-weight: 500;
+    padding: 24px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;
+}
+
+/* boxes */
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    padding: 8vh 24px;
+    gap: 8vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-logo{
+    background: #F16718;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    margin: auto;
+}
+
+.box h4{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #162542;
+    padding: 24px 20vw 30px 20vw;
+}
+
+.box p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;
+}
+    
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}

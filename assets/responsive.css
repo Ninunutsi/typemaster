@@ -1,0 +1,195 @@
+@media(min-width: 768px) and (max-width: 1024px){
+    
+    .typemaster{
+        padding: 5% 0 20px 24px;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+    .main-text{
+        padding-bottom: 5vh;
+        padding: 3vh 2vw;
+    }
+    
+    .keyboard{
+        margin-right: -5%;
+        background-image: url('./imgs/tablet/image-keyboard.jpg');
+    }
+    /* section 2 */
+    
+    .red{
+        width: 214px;
+        height: 320px;
+        margin-left: 4vw;
+        background-image: url(./imgs/tablet/image-phone-and-keyboard.jpg);
+        background-size: contain;
+    }
+    
+    .normal{
+        width: 445px;
+        height: 320px;
+        background-image: url(./imgs/tablet/image-glass-and-keyboard.jpg);
+    }
+    
+   .text{
+    display: flex;
+    align-items: center;
+    padding-top: 4vh;
+   }
+
+   .text h1{
+    padding: 0vh 60px 0 60px;
+}
+    
+    /* boxes */
+    
+    .boxes{
+        flex-direction: row;
+        padding: 8vh 24px;
+        gap: 4vh;
+        align-items: unset;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    
+    .box{
+        width: 40%;      
+    }
+
+    .box h4{
+        padding: 24px 7vw 30px 5vw;
+    }
+
+    .square, .square1{
+        display: none;
+    }
+}
+
+@media (min-width:1024px){
+    /* header */
+
+.header{
+    padding: 5vh 12vw;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* main content */
+
+/* aq xar gacherebuli */
+/* fptoebi chanacvlebulia */
+.typemaster{
+    padding: 5% 0 5% 24px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    gap: 40px;
+}
+
+.main-text{
+    padding: 10vh 7vw;
+}
+
+.typemaster h1{
+    padding-bottom: 2.9vh;
+}
+
+.typemaster p{
+    padding-right: 2.9vw;
+}
+
+.keyboard{
+    background-image: url('./imgs/desktop/image-keyboard.jpg');
+    border-radius: 25px;
+}
+
+.square{
+    display: block;
+    background-image: url(./imgs/shared/pattern-square.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+    border-radius: 25px 0 0 25px;
+}
+
+.main-pics{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+/* section 2 */
+
+.pic2-text1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics{
+    display: flex;
+    gap: 20px;
+}
+
+.red{
+    width: 15vw;
+    height: 65vh;
+    margin-left: 0;
+}
+
+.normal{
+    width: 28vw;
+    height:  65vh;
+}
+
+.text h1{
+    padding: 6vh 12vw 0 6vw;
+    text-align: unset;
+}
+
+.text p{
+    padding: 40px 9vw 0 6vw ;
+    text-align: unset;
+}
+
+.square1{
+    display: block;
+    background-image: url(./imgs/shared/pattern-square.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10vw;
+    height: 180px;
+    border-radius: 0 25px 25px 0;
+    align-self: flex-end;
+
+}
+
+/* boxes */
+
+.boxes{
+    flex-direction: row;
+    padding: 20vh 8vw;
+    gap: 25px;
+}
+
+.box h4{
+    text-align: unset;
+    padding: 44px 50px 30px 0;
+}
+
+.box p{
+    text-align: unset;
+}
+
+.box-logo{
+    margin:0;
+}
+}
